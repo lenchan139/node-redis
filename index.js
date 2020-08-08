@@ -1,6 +1,6 @@
 'use strict';
 
-var net = require('net');
+var net = require('net-browserify');
 var tls = require('tls');
 var util = require('util');
 var utils = require('./lib/utils');
